@@ -1,0 +1,61 @@
+body {
+        background-color: #c88aeb;
+        color: white;
+        font-size: 18px;
+        font-family: didot, helvetica, arial; 
+}
+
+
+
+.top{
+    width:250px;
+    height:14px;
+    background-color: orange;
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    transform: rotate(2deg);
+}
+
+.top{
+    width:250px;
+    height:14px;
+    background-color: orange;
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    transform: rotate(2deg);
+}
+
+.circle{
+    background-color:purple;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 90px;
+    right: 100px;
+    border-radius: 50px;
+    
+    
+}
+
+
+
+a { 
+    color: black;
+}
+
+
+
+h1{
+    font-size: 48px;
+    color: black;
+}
+
+
+
+
+p {
+    font-size: 18px;
+    color: white;
+}
