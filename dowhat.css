@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    
+}
+
+    h1 {
+        color: white;
+        font-size: 40px;
+        font-family: didot, helvetica, arial; 
+}
+
+p{
+    color: white;
+    font-size: 18px;
+    font-family: Helvetica, arial;
+}
+
+h3 {
+    color:white;
+    font-size: 20px;
+    font-family: helvetica, arial;
+}
+.top{
+    width:650px;
+    height:4px;
+    background-color: #cbb8f4;
+    position: fixed;
+    top: 90px;
+    left: 00px;
+    
+}
