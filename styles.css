@@ -6,7 +6,7 @@ body {
 }
 
 h1{
-    font-size: 48px;
+    font-size: 52px;
     color: white;
 }
 
@@ -19,7 +19,7 @@ a{
     height:4px;
     background-color: #cbb8f4;
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: 00px;
 }
 

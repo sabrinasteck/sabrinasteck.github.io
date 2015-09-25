@@ -22,11 +22,11 @@ h3 {
     font-family: helvetica, arial;
 }
 .top{
-    width:650px;
+    width:2000px;
     height:4px;
     background-color: #cbb8f4;
-    position: fixed;
-    top: 90px;
+    position: absolute;
+    top: 110px;
     left: 00px;
-    
 }
+
