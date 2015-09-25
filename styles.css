@@ -1,5 +1,5 @@
 body {
-        background-color: grey;
+        background-color: black;
         color: White;
         font-size: 18px;
         font-family: didot, helvetica, arial; 
@@ -14,11 +14,11 @@ body {
     
 }
 a { 
-    color: black;
+    color: white;
 }
 h1{
     font-size: 48px;
-    color: black;
+    color: white;
 }
 p {
     font-size: 18px;
