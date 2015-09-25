@@ -5,31 +5,13 @@ body {
         font-family: didot, helvetica, arial; 
 }
 .top{
-    width:250px;
-    height:14px;
-    background-color: orange;
+    width:650px;
+    height:4px;
+    background-color: pink;
     position: absolute;
-    top: 90px;
-    left: 300px;
-    transform: rotate(2deg);
-}
-.bottom{
-    width:250px;
-    height:14px;
-    background-color: red;
-    position: absolute;
-    top: 180px;
-    left: 300px;
-    -webkit-transform: rotate(6deg);
-}
-.circle{
-    background-color:purple;
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    top: 90px;
-    left: 380px;
-    border-radius: 100px;
+    top: 100px;
+    left: 00px;
+    
 }
 a { 
     color: black;
