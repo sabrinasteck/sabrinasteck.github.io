@@ -2,7 +2,6 @@ body {
     background-color: black;
 
 }
-
 .shape1{
     width:110px;
     height:170px;
@@ -10,7 +9,6 @@ body {
     position: absolute;
     top: 0px;
     left: 10px;
-    
 }
 .shape25{
     background-color: white;
