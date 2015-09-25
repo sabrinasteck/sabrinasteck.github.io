@@ -1,25 +1,231 @@
 body {
-    background-color: black;
+    background-color: black
+    ;
 
 }
 
-
 .shape1{
-    width:300px;
-    height:100px;
-    background-color: #f6a9cd;
+    width:110px;
+    height:170px;
+    background-color: white;
     position: absolute;
-    top: 10px;
-    left: 100px;
+    top: 0px;
+    left: 10px;
+    
+}
+
+.shape25{
+    background-color: white;
+    width:30px;
+    height:2000px;
+    position: fixed;
+    top: -200px;
+    left: 220px;
+    -webkit-transform: rotate(40deg);
+    
+}
+
+.shape2{
+    width:40px;
+    height: 800px;
+    background-color: white;
+    position:absolute;
+    top:10px;
+    left:80px;
+    
+}
+
+.shape4{
+    width:2000px;
+    height:60px;
+    background-color: white;
+    position:absolute;
+    top:00px;
+    left:250px;
+}
+
+.circle{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    position: fixed;
+    top: -390px;
+    left: 220px;
+    border-radius: 800px;
+}
+
+.shape9{
+    background-color: white;
+    width:150px;
+    height:150px;
+    position: fixed;
+    top:510px;
+    left:560px;
+    
+}
+
+.shape10{
+    background-color: white;
+    width:150px;
+    height:2000px;
+    position: absolute;
+    top: -900px;
+    left: 900px;
+    -webkit-transform: rotate(-45deg);
+    
+}
+
+.shape26{
+    background-color: white;
+    width:30px;
+    height:2000px;
+    position: absolute;
+    top: -900px;
+    left: 133px;
+    -webkit-transform: rotate(-45deg);
     
 }
 
 
-.shape2{
-    width:90px;
-    height: 5000px;
-    background-color: #f6f16c;
-    position:absolute;
-    top:90
-    left:-30;
+.shape11{
+    background-color: white;
+    width:2px;
+    height:100px;
+    position: fixed;
+    top: 100px;
+    left: 125px;
+    -webkit-transform: rotate(50deg);
+}
+
+.shape13{
+    background-color: red;
+    width:2px;
+    height:200px;
+    position: fixed;
+    top: 100px;
+    left: 125px;
+    -webkit-transform: rotate(50deg);
+}
+
+.shape14{
+    background-color: white;
+    width:2px;
+    height:240px;
+    position: fixed;
+    top: 130px;
+    left: 135px;
+    -webkit-transform: rotate(50deg);
+}
+
+.shape15{
+    background-color: blue;
+    width:2px;
+    height:330px;
+    position: fixed;
+    top: 140px;
+    left: 140px;
+    -webkit-transform: rotate(50deg);
+}
+
+.shape16{
+    background-color: white;
+    width:2px;
+    height:375px;
+    position: fixed;
+    top: 170px;
+    left: 155px;
+    -webkit-transform: rotate(50deg);
+}
+
+.shape17{
+    background-color: blue;
+    width:5px;
+    height:575px;
+    position: fixed;
+    top: 190px;
+    left: 100px;
+    -webkit-transform: rotate(50deg);
+}
+
+.shape18{
+    background-color: white;
+    width:6px;
+    height:700px;
+    position: fixed;
+    top: 370px;
+    left: 400px;
+    
+}
+
+.shape19{
+    background-color: yellow;
+    width:3px;
+    height:700px;
+    position: fixed;
+    top: 390px;
+    left: 440px;
+}
+
+.shape20{
+    background-color: blue;
+    width:5px;
+    height:800px;
+    position: fixed;
+    top: 430px;
+    left: 480px;
+}
+
+.shape21{
+    background-color: gray;
+    width:1px;
+    height:800px;
+    position: fixed;
+    top: 450px;
+    left: 515px;
+}
+
+.shape22{
+    background-color: blue;
+    width:1px;
+    height:800px;
+    position: fixed;
+    top:00px;
+    left: 750px;
+}
+
+.shape23{
+    background-color: yellow;
+    width:1px;
+    height:800px;
+    position: fixed;
+    top:60px;
+    left: 790px;
+}
+
+.shape24{
+    background-color: gray;
+    width:10px;
+    height:800px;
+    position: fixed;
+    top:60px;
+    left: 810px;
+}
+
+.shape27{
+    width:300px;
+    height:300px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+    -webkit-transform: rotate(90deg);
+}
+
+.shape28{
+    background-color: white;
+    width:10px;
+    height:1000px;
+    position: fixed;
+    top:10px;
+    left: 1375px;
 }
