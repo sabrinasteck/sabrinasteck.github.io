@@ -5,8 +5,8 @@ body {
         font-family: didot, helvetica, arial; 
 }
 
-h1{
-    font-size: 52px;
+h1 {
+    font-size: 40px;
     color: white;
 }
 
@@ -32,3 +32,5 @@ a{
     left: 200px;
     transform: rotate(90deg);
 }
+
+

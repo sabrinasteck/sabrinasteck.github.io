@@ -1,16 +1,20 @@
 body {
     background-color: black;
 
+
 }
-.shape1{
-    width:110px;
-    height:170px;
+
+.shape1 {
+    width: 110px;
+    height: 170px;
     background-color: white;
     position: absolute;
     top: 0px;
     left: 10px;
 }
-.shape25{
+
+
+.shape25 {
     background-color: white;
     width:30px;
     height:2000px;
@@ -21,17 +25,17 @@ body {
     
 }
 
-.shape2{
+.shape2 {
     width:40px;
     height: 800px;
     background-color: white;
     position:absolute;
     top:10px;
     left:80px;
-    
 }
 
-.shape4{
+.shape4 {
+    color: blue;
     width:2000px;
     height:60px;
     background-color: white;
@@ -40,7 +44,7 @@ body {
     left:250px;
 }
 
-.circle{
+.circle {
     background-color: white;
     width: 500px;
     height: 600px;
@@ -50,7 +54,7 @@ body {
     border-radius: 800px;
 }
 
-.shape9{
+.shape9 {
     background-color: white;
     width:150px;
     height:150px;
@@ -60,7 +64,7 @@ body {
     
 }
 
-.shape10{
+.shape10 {
     background-color: white;
     width:150px;
     height:2000px;
@@ -71,7 +75,7 @@ body {
     
 }
 
-.shape26{
+.shape26 {
     background-color: white;
     width:30px;
     height:2000px;
@@ -83,7 +87,7 @@ body {
 }
 
 
-.shape11{
+.shape11 {
     background-color: white;
     width:2px;
     height:100px;
@@ -93,7 +97,7 @@ body {
     -webkit-transform: rotate(50deg);
 }
 
-.shape13{
+.shape13 {
     background-color: red;
     width:2px;
     height:200px;
@@ -103,7 +107,7 @@ body {
     -webkit-transform: rotate(50deg);
 }
 
-.shape14{
+.shape14 {
     background-color: white;
     width:2px;
     height:240px;
@@ -113,7 +117,7 @@ body {
     -webkit-transform: rotate(50deg);
 }
 
-.shape15{
+.shape15 {
     background-color: blue;
     width:2px;
     height:330px;
@@ -123,7 +127,7 @@ body {
     -webkit-transform: rotate(50deg);
 }
 
-.shape16{
+.shape16 {
     background-color: white;
     width:2px;
     height:375px;
@@ -133,7 +137,7 @@ body {
     -webkit-transform: rotate(50deg);
 }
 
-.shape17{
+.shape17 {
     background-color: blue;
     width:5px;
     height:575px;
@@ -143,7 +147,7 @@ body {
     -webkit-transform: rotate(50deg);
 }
 
-.shape18{
+.shape18 {
     background-color: white;
     width:6px;
     height:700px;
@@ -153,7 +157,7 @@ body {
     
 }
 
-.shape19{
+.shape19 {
     background-color: yellow;
     width:3px;
     height:700px;
@@ -162,7 +166,7 @@ body {
     left: 440px;
 }
 
-.shape20{
+.shape20 {
     background-color: blue;
     width:5px;
     height:800px;
@@ -171,7 +175,7 @@ body {
     left: 480px;
 }
 
-.shape21{
+.shape21 {
     background-color: gray;
     width:1px;
     height:800px;
@@ -189,7 +193,7 @@ body {
     left: 750px;
 }
 
-.shape23{
+.shape23 {
     background-color: yellow;
     width:1px;
     height:800px;
@@ -198,7 +202,7 @@ body {
     left: 790px;
 }
 
-.shape24{
+.shape24 {
     background-color: gray;
     width:10px;
     height:800px;
@@ -207,7 +211,7 @@ body {
     left: 810px;
 }
 
-.shape27{
+.shape27 {
     width:300px;
     height:300px;
     background-color: white;
@@ -217,7 +221,7 @@ body {
     -webkit-transform: rotate(90deg);
 }
 
-.shape28{
+.shape28 {
     background-color: white;
     width:10px;
     height:1000px;
