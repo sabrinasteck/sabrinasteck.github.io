@@ -4,7 +4,7 @@ body{
 
 #box1{
     background-color: #7a5d34;
-    height: 500px;
+    height: 700px;
     width: 70px;
     top: 0;
     left: 10px;
@@ -23,9 +23,9 @@ body{
 }
 #box3{
     background-color: #7a5d34;
-    height: 150px;
+    height: 250px;
     width: 8px;
-    top: 40px;
+    top: -10px;
     left: 143px;
     position: absolute;
     -webkit-transform: rotate(105deg);
@@ -36,15 +36,15 @@ body{
     height: 50px;
     width: 50px;
     border-radius: 90px;
-    top: 250px;
+    top: 450px;
     left: 15px;
-    position: absolute;
+    position: fixed;
 }
 #box5{
     background-color: #7a5d34;
 	width: 70px; 
 	height: 40px; 
-	top: 450px;
+	top: 650px;
 	left: 10px;
     position: fixed;
 	border-bottom: 60px solid transparent; 
@@ -59,7 +59,7 @@ body{
     border-radius: 90px;
     top: 85px;
     left: 190px;
-    position: absolute;
+    position: fixed;
 }
 
 #box7 {
@@ -93,7 +93,7 @@ body{
     border-radius: 90px;
     top: 90px;
     left: 200px;
-    position: absolute;
+    position: fixed;
 }
 
 #box10{
@@ -103,7 +103,7 @@ body{
     border-radius: 90px;
     top: 92px;
     left: 200px;
-    position: absolute;
+    position: fixed;
 }
 
 #box11{
@@ -118,6 +118,7 @@ body{
      -webkit-transform: rotate(150deg);
      background: #d70000;
 }
+
 
 body { background-color:#8fc1fa; }
 #snow{
