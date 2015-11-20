@@ -1,15 +1,17 @@
 body{
     background-color:#8fc1fa;
 }
-
+/* tree */
 #box1{
     background-color: #7a5d34;
-    height: 700px;
+    height: 900px;
     width: 70px;
     top: 0;
     left: 10px;
     position: absolute;
 }
+
+
 
 #box2{
     background-color: #7a5d34;
@@ -44,7 +46,7 @@ body{
     background-color: #7a5d34;
 	width: 70px; 
 	height: 40px; 
-	top: 650px;
+	top: 800px;
 	left: 10px;
     position: fixed;
 	border-bottom: 60px solid transparent; 
@@ -52,33 +54,58 @@ body{
 	-webkit-transform: rotate(3600deg);
 }
 
-#box6 {
+
+/* bird */
+
+.bird {
+  width: 900px;
+  height: 150px;
+  position: relative;
+  z-index:1;
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+}
+
+.bird:hover{
+    left: 200px;
+    position: absolute;
+}
+
+@-webkit-keyframes example {
+    0%   {position: absolute; left: 10px; top:20px;}
+    25%  {position: absolute; left: 200; top:30px;}
+    50%  {position: absolute; left: 300; top:10;}
+    75%  {position: absolute; left: 400px; top:20;}
+    100% {position: absolute; left: 5000px; top:30px;}
+}
+
+#head {
     background-color: red;
     width: 20px;
     height: 20px;
     border-radius: 90px;
     top: 85px;
     left: 190px;
-    position: fixed;
+    position: absolute;
 }
 
-#box7 {
+#beak {
     width: 0;
     height: 0;
     border-style: solid;
     top: 90px;
     left: 209px;
-    position: fixed;
+    position: absolute;
     border-width: 5px 0 5px 10px;
     border-color: transparent transparent transparent #ffbf00;
 }
 
-#box8 {
+#birdbody {
     height:20px;
      width:40px;
      top: 103px;
      left: 167px;
-     position: fixed;
+     position: absolute;
      border-radius: 90px 90px 0 0;
      -moz-border-radius: 90px 90px 0 0;
      -webkit-border-radius: 90px 90px 0 0;
@@ -86,32 +113,32 @@ body{
      background:red;
 }
 
-#box9{
+#eyeball{
     background-color: black;
     width: 5px;
     height: 5px;
     border-radius: 90px;
     top: 90px;
     left: 200px;
-    position: fixed;
+    position: absolute;
 }
 
-#box10{
+#eye{
     background-color: white;
     width: 1px;
     height: 1px;
     border-radius: 90px;
     top: 92px;
     left: 200px;
-    position: fixed;
+    position: absolute;
 }
 
-#box11{
+#wing{
     height:10px;
      width:25px;
      top: 108px;
      left: 172px;
-     position: fixed;
+     position: absolute;
      border-radius: 90px 90px 0 0;
      -moz-border-radius: 90px 90px 0 0;
      -webkit-border-radius: 90px 90px 0 0;
