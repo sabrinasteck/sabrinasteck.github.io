@@ -1,0 +1,310 @@
+body {
+    background-color: #6b92b9;
+    background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
+}
+
+@-webkit-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% { background-color: #b4cfe0 }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        background-color: #6b92b9;
+    }
+}
+@-moz-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% { background-c
+    olor: #b4cfe0 }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        background-color: #6b92b9;
+    }
+}
+@-ms-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% { background-color: #b4cfe0 }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        background-color: #6b92b9;
+    }
+}
+@keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% { background-color: #b4cfe0 }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        background-color: #6b92b9;
+    }
+}
+body {
+    background-color: #6b92b9;
+    background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;
+}
+
+
+/* snowman */
+.circle {
+	width: 70px;
+	height: 70px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	bottom: 0;
+	left: 1400px;
+	position: absolute;
+}
+.circle2 {
+	width: 50px;
+	height: 50px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	bottom: 65px;
+	left: 1409px;
+	position: absolute;
+	z-index: 1;
+}
+.circle3 {
+	width: 30px;
+	height: 30px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	bottom: 110px;
+	left: 1418px;
+	position: absolute;
+	z-index: 2;
+	
+}
+
+.circle4 {
+	width: 4px;
+	height: 4px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	bottom: 130px;
+	left: 1425px;
+	position: absolute;
+	z-index: 2;
+	
+}
+.circle5 {
+	width: 4px;
+	height: 4px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	bottom: 130px;
+	left: 1435px;
+	position: absolute;
+	z-index: 2;
+	
+}
+.nose {
+	width: 20px;
+	height: 4px;
+	background: orange;
+	border-radius: 50px;
+	bottom: 120px;
+	left: 1415px;
+	-webkit-transform: rotate(150deg);
+	position: absolute;
+	z-index: 2;
+	
+}
+
+/* tree 1 */
+.triangle1-1 {
+	width: 0;
+	height: 0px;
+	border-left: 80px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 260px;
+	left: 313px;
+
+}
+
+.triangle1-2 {
+	width: 30px;
+	height: 30px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 190px;
+	left: 280px;
+
+}
+
+.triangle1-3 {
+	width: 40px;
+	height: 40px;
+	border-left: 130px solid transparent;
+	border-right: 130px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 110px;
+	left: 250px;
+
+}
+.trunk1{
+	height: 110px;
+	width: 40px;
+	background-color: #5d4607;
+	position: absolute;
+	bottom: 0;
+	left: 380px;
+}
+
+
+
+/* tree 2 */
+
+.triangle2-1 {
+	width: 0;
+	height: 0px;
+	border-left: 80px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 260px;
+	left: 700px;
+
+}
+
+.triangle2-2 {
+	width: 30px;
+	height: 30px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 190px;
+	left: 670px;
+
+}
+
+.triangle2-3 {
+	width: 40px;
+	height: 40px;
+	border-left: 130px solid transparent;
+	border-right: 130px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 110px;
+	left: 640px;
+
+}
+.trunk2{
+	height: 110px;
+	width: 40px;
+	background-color: #5d4607;
+	position: absolute;
+	bottom: 0;
+	left: 760px;
+}
+
+/* tree 3 */
+
+.triangle3-1 {
+	width: 0;
+	height: 0px;
+	border-left: 80px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 260px;
+	left: 1070px;
+
+}
+
+.triangle3-2 {
+	width: 30px;
+	height: 30px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 190px;
+	left: 1040px;
+
+}
+
+.triangle3-3 {
+	width: 40px;
+	height: 40px;
+	border-left: 130px solid transparent;
+	border-right: 130px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 110px;
+	left: 1010px;
+
+}
+.trunk3{
+	height: 110px;
+	width: 40px;
+	background-color: #5d4607;
+	position: absolute;
+	bottom: 0;
+	left: 1140px;
+}
+
+/* tree 4 */
+
+.triangle4-1 {
+	width: 0;
+	height: 0px;
+	border-left: 80px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 260px;
+	left: 1450px;
+
+}
+
+.triangle4-2 {
+	width: 30px;
+	height: 30px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 190px;
+	left: 1420px;
+
+}
+
+.triangle4-3 {
+	width: 40px;
+	height: 40px;
+	border-left: 130px solid transparent;
+	border-right: 130px solid transparent;
+	border-bottom: 100px solid green;
+	position: absolute;
+	bottom: 110px;
+	left: 1390px;
+
+}
+.trunk4{
+	height: 110px;
+	width: 40px;
+	background-color: #5d4607;
+	position: absolute;
+	bottom: 0;
+	left: 1520px;
+}
+
